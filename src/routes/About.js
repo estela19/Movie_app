@@ -1,7 +1,13 @@
 import React from 'react';
+import "./About.css";
 
 function About(){
-    return <span>About this page: I built it because I love movies</span>;
+    return (
+    <div className="about__container">
+        <span>"Junior programmer"</span>
+        <span>- SooYeon Kim. (github.com/estela19)</span>
+    </div>
+    );
 }
 
 export default About;
